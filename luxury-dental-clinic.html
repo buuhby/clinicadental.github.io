@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Dental Clinic</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+<!-- FLOATING WHATSAPP -->
+<a class="wa-float" href="https://wa.me/528782101199?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Luxury%20Dental%20Clinic." target="_blank" title="Chat on WhatsApp">💬</a>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="mobile-link" data-i18n="nav.home">Home</a>
+  <a href="#services" class="mobile-link" data-i18n="nav.services">Services</a>
+  <a href="#about" class="mobile-link" data-i18n="nav.about">About Us</a>
+  <a href="#testimonies" class="mobile-link" data-i18n="nav.testimonies">Testimonies</a>
+  <a href="#contact" class="mobile-link" data-i18n="nav.contact">Contact</a>
+  <a class="btn-primary" href="https://wa.me/528782101199?text=Hello!%20I'd%20like%20to%20book%20an%20appointment." target="_blank" data-i18n="nav.book">📅 Book Appointment</a>
+</div>
+
+<!-- NAVIGATION -->
+<nav id="mainNav">
+  <a href="#home" class="nav-logo">
+    <div class="logo-icon"><img src="logopng1.png" alt="Luxury Dental logo"></div>
+    <span class="logo-text" data-i18n="brand.name">Luxury Dental</span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#home" data-i18n="nav.home">Home</a></li>
+    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+    <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+    <li><a href="#testimonies" data-i18n="nav.testimonies">Testimonies</a></li>
+    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <div class="lang-switch">
+      <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" id="btn-es" onclick="setLang('es')">ES</button>
+    </div>
+    <a class="btn-book" href="https://wa.me/528782101199?text=Hello!%20I'd%20like%20to%20book%20an%20appointment%20at%20Luxury%20Dental%20Clinic." target="_blank">
+      <span class="wp-icon">📅</span>
+      <span data-i18n="nav.book">Book Appointment</span>
+    </a>
+  </div>
+
+  <button class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="home">
+  <div class="hero-content">
+    <div class="hero-tag" data-i18n="hero.tag">Premium Dental Care</div>
+    <h1 class="hero-title" data-i18n="hero.title">Your Smile Is Our <em>Greatest</em> Work</h1>
+    <p class="hero-desc" data-i18n="hero.desc">We combine cutting-edge technology with compassionate care to give you the smile you've always dreamed of. Trusted by thousands of patients across the city.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="https://wa.me/528782101199?text=Hello!%20I'd%20like%20to%20book%20an%20appointment." target="_blank">
+        <span>📅</span> <span data-i18n="nav.book">Book Appointment</span>
+      </a>
+      <a class="btn-secondary" href="#services">
+        <span data-i18n="hero.services">Our Services</span> →
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">2<span>+</span></div>
+        <div class="stat-label" data-i18n="hero.stat1">Years of Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">1K<span>+</span></div>
+        <div class="stat-label" data-i18n="hero.stat2">Happy Patients</div>
+      </div>
+      <div class="stat-item">
+        <!-- <div class="stat-num">12<span>+</span></div>
+        <div class="stat-label" data-i18n="hero.stat3">Specialist Doctors</div> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-image-wrap">
+    <div class="hero-hexagon-bg">
+      <div class="hero-hex-inner">
+        <img src="logopng1.png" alt="logo" class="big-tooth">
+        <p>LUXURY DENTAL</p>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-num">★ 4.9</div>
+      <div class="badge-text" data-i18n="hero.rating">Google Rating</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT BAR -->
+<div class="contact-bar">
+  <a class="contact-item" href="tel:+528782101199">
+    <div class="ci-icon">📞</div>
+    878 210 1199
+  </a>
+  <a class="contact-item" href="/cdn-cgi/l/email-protection#5038353c3c3f103c252825222934353e24313c7e333f3d">
+    <div class="ci-icon">✉️</div>
+    <span class="__cf_email__" data-cfemail="0c64696060634c607974797e75686962786d60226f6361">maglenalex@gmail.com</span>
+  </a>
+  <div class="contact-item">
+    <div class="ci-icon">📍</div>
+    Veracruz 101, Roma, 26025 Piedras Negras, Coah.
+  </div>
+  <div class="contact-item">
+    <div class="ci-icon">🕐</div>
+    <span data-i18n="contact.hours_short">Tue–Sat: 10 am – 3pm</span>
+  </div>
+  <a class="contact-item" href="https://www.facebook.com/profile.php?id=61569769653349" target="_blank">
+    <div class="ci-icon">📘</div>
+    Facebook
+  </a>
+</div>
+
+<!-- ─── SERVICES ─── -->
+<section id="services">
+  <div class="section-label" data-i18n="services.label">What We Offer</div>
+  <h2 class="section-title" data-i18n="services.title">Excellence in Every <em>Treatment</em></h2>
+  <p class="section-desc" data-i18n="services.desc">From routine checkups to full smile transformations, our team of specialists delivers world-class dental care tailored to you.</p>
+
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon">✨</div>
+      <div class="service-name" data-i18n="s1.name">Teeth Whitening</div>
+      <p class="service-desc" data-i18n="s1.desc">Professional whitening treatments that remove stains and brighten your smile by several shades in just one session.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🦷</div>
+      <div class="service-name" data-i18n="s2.name">Dental Implants</div>
+      <p class="service-desc" data-i18n="s2.desc">Permanent, natural-looking tooth replacements using the latest implant technology for a lifetime of confident smiling.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">😁</div>
+      <div class="service-name" data-i18n="s3.name">Orthodontics</div>
+      <p class="service-desc" data-i18n="s3.desc">Invisible aligners and braces designed to straighten teeth discreetly, comfortably, and effectively at any age.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">💎</div>
+      <div class="service-name" data-i18n="s4.name">Veneers</div>
+      <p class="service-desc" data-i18n="s4.desc">Ultra-thin porcelain veneers crafted to perfect the shape, color, and symmetry of your smile with minimal tooth alteration.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🔬</div>
+      <div class="service-name" data-i18n="s5.name">Root Canal</div>
+      <p class="service-desc" data-i18n="s5.desc">Pain-free endodontic treatments using advanced rotary technology to save infected teeth quickly and comfortably.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🩺</div>
+      <div class="service-name" data-i18n="s6.name">General Check-Up</div>
+      <p class="service-desc" data-i18n="s6.desc">Comprehensive exams, digital X-rays, and professional cleanings to keep your oral health in perfect condition year-round.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <div class="about-image-wrap reveal">
+    <div class="about-img-box">
+      <div class="about-img-placeholder">
+        <span class="big-icon">🏥</span>
+        <p>OUR CLINIC</p>
+      </div>
+    </div>
+    <div class="about-floating-card">
+      <div class="afc-num">2+</div>
+      <div class="afc-text" data-i18n="about.stat">Years of Excellence</div>
+    </div>
+  </div>
+
+  <div class="about-content reveal">
+    <div class="section-label" data-i18n="about.label">About Us</div>
+    <h2 class="about-title" data-i18n="about.title">Where <em>Comfort</em> Meets Clinical Excellence</h2>
+    <p class="about-desc" data-i18n="about.desc">Located in the heart of Piedras Negras, Luxury Dental Clinic arrives to elevate the standard of oral health on the border. Whether you're local or visit us from across the border, our philosophy is to offer you a refuge of modernity and comfort. At Luxury Dental Clinic Piedras Negras, we don't just care for your smile, we care for the first impression you give to the world.</p>
+
+    <div class="about-features">
+      <div class="about-feature">
+        <div class="af-check">✓</div>
+        <div class="af-text">
+          <strong data-i18n="af1.title">Certified Specialists</strong>
+          <p data-i18n="af1.desc">All our dentists are board-certified with post-graduate specializations.</p>
+        </div>
+      </div>
+      <div class="about-feature">
+        <div class="af-check">✓</div>
+        <div class="af-text">
+          <strong data-i18n="af2.title">Latest Technology</strong>
+          <p data-i18n="af2.desc">Digital X-rays, 3D scanning, and laser dentistry for precision and comfort.</p>
+        </div>
+      </div>
+      <div class="about-feature">
+        <div class="af-check">✓</div>
+        <div class="af-text">
+          <strong data-i18n="af3.title">Patient-First Philosophy</strong>
+          <p data-i18n="af3.desc">From the first call to post-treatment care, your comfort is our priority.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">👨‍⚕️</div>
+        <div class="team-name">Dr. Maglen Alex Garcia</div>
+        <div class="team-role" data-i18n="team.surgeon">Dental Surgeon</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">👨‍⚕️</div>
+        <div class="team-name">Dr. Carlos Mendez</div>
+        <div class="team-role" data-i18n="team.specialist">Specialist</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TESTIMONIALS ─── -->
+<section id="testimonies">
+  <div class="testi-header reveal">
+    <div class="section-label" data-i18n="testi.label">Patient Stories</div>
+    <h2 class="section-title" style="margin: 0 auto 12px;" data-i18n="testi.title">What Our Patients <em>Say</em></h2>
+    <p class="section-desc" data-i18n="testi.desc">Real stories from real patients who trusted us with their smiles.</p>
+  </div>
+
+  <div class="testimonials-grid">
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"</div>
+      <p class="testi-text" data-i18n="t1.text">I was terrified of dentists until I came here. The team made me feel so comfortable and my veneers turned out absolutely stunning. I smile with confidence now!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">😊</div>
+        <div class="testi-info">
+          <div class="name">Amanda R.</div>
+          <div class="role" data-i18n="t1.role">Veneer Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"</div>
+      <p class="testi-text" data-i18n="t2.text">The dental implant procedure was painless and the result looks completely natural. Dr. Chen is a true expert. I highly recommend this clinic to everyone!</p>
+      <div class="testi-author">
+        <div class="testi-avatar">😄</div>
+        <div class="testi-info">
+          <div class="name">Robert M.</div>
+          <div class="role" data-i18n="t2.role">Implant Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"</div>
+      <p class="testi-text" data-i18n="t3.text">After 18 months of Invisalign treatment with Dr. Reyes, my teeth are perfectly straight. The entire experience was professional, friendly, and worth every penny.</p>
+      <div class="testi-author">
+        <div class="testi-avatar">🙂</div>
+        <div class="testi-info">
+          <div class="name">Lisa T.</div>
+          <div class="role" data-i18n="t3.role">Invisalign Patient</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="contact-info reveal">
+    <div class="section-label" data-i18n="contact.label">Get In Touch</div>
+    <h2 data-i18n="contact.title">We'd Love to <em>Hear</em> from You</h2>
+    <p class="desc" data-i18n="contact.desc">Ready to start your smile journey? Reach out by phone, email, WhatsApp, or drop by our clinic. Our friendly team is always happy to help.</p>
+
+    <div class="contact-details">
+      <a class="cd-item" href="tel:+528782101199">
+        <div class="cd-icon">📞</div>
+        <div>
+          <div class="cd-label" data-i18n="c.phone_label">Phone</div>
+          <div class="cd-value">878 210 1199</div>
+        </div>
+      </a>
+      <a class="cd-item" href="https://wa.me/528782101199" target="_blank">
+        <div class="cd-icon">💬</div>
+        <div>
+          <div class="cd-label">WhatsApp</div>
+          <div class="cd-value">878 210 1199</div>
+        </div>
+      </a>
+      <a class="cd-item" href="mailto:maglenalex@gmail.com">
+        <div class="cd-icon">✉️</div>
+        <div>
+          <div class="cd-label">Email</div>
+          <div class="cd-value">maglenalex@gmail.com</div>
+        </div>
+      </a>
+      <div class="cd-item">
+        <div class="cd-icon">📍</div>
+        <div>
+          <div class="cd-label" data-i18n="c.address_label">Address</div>
+          <div class="cd-value">Veracruz 101, Roma, 26025 Piedras Negras, Coah.</div>
+        </div>
+      </div>
+      <a class="cd-item" href="https://www.facebook.com/profile.php?id=61569769653349" target="_blank">
+        <div class="cd-icon">📘</div>
+        <div>
+          <div class="cd-label" data-i18n="c.facebook_label">Facebook</div>
+          <div class="cd-value" data-i18n="c.facebook_value">Visit our page</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="hours-grid">
+      <div class="hours-title" data-i18n="c.hours_title">Office Hours</div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.monday">Monday</span><span class="hours-closed" data-i18n="c.closed">Closed</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.tuesday">Tuesday</span><span class="hours-time">10:00 AM – 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.wednesday">Wednesday</span><span class="hours-time">10:00 AM – 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.thursday">Thursday</span><span class="hours-time">10:00 AM – 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.friday">Friday</span><span class="hours-time">10:00 AM – 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.saturday">Saturday</span><span class="hours-time">10:00 AM – 3:00 PM</span></div>
+      <div class="hours-row"><span class="hours-day" data-i18n="c.sunday">Sunday</span><span class="hours-closed" data-i18n="c.closed">Closed</span></div>
+    </div>
+  </div>
+
+  <div class="contact-form-wrap reveal">
+    <h3 data-i18n="form.title">Book an Appointment</h3>
+    <p class="form-sub" data-i18n="form.sub">Fill in the form and we'll confirm your slot via WhatsApp within 2 hours.</p>
+
+    <form id="apptForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label data-i18n="form.name">Full Name</label>
+          <input class="form-control" type="text" id="f-name" placeholder="John Smith">
+        </div>
+        <div class="form-group">
+          <label data-i18n="form.phone">Phone / WhatsApp</label>
+          <input class="form-control" type="tel" id="f-phone" placeholder="+1 (555) 000-0000">
+        </div>
+      </div>
+      <div class="form-group">
+        <label data-i18n="form.service">Service</label>
+        <select class="form-control" id="f-service">
+          <option value="" data-i18n="form.select">Select a service...</option>
+          <option data-i18n="s1.name">Teeth Whitening</option>
+          <option data-i18n="s2.name">Dental Implants</option>
+          <option data-i18n="s3.name">Orthodontics</option>
+          <option data-i18n="s4.name">Veneers</option>
+          <option data-i18n="s5.name">Root Canal</option>
+          <option data-i18n="s6.name">General Check-Up</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-i18n="form.message">Message (optional)</label>
+        <textarea class="form-control" id="f-message" placeholder="Tell us about your concern or preferred time..."></textarea>
+      </div>
+      <a class="btn-form" id="waFormBtn" href="#" target="_blank">
+        <span>💬</span> <span data-i18n="form.btn">Send via WhatsApp</span>
+      </a>
+    </form>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="nav-logo" style="margin-bottom: 0;">
+        <div class="logo-icon"><img src="logopng1.png" alt="Luxury Dental logo"></div>
+        <span class="logo-text" data-i18n="brand.name">Luxury Dental</span>
+      </div>
+      <p data-i18n="footer.desc">Committed to providing exceptional dental care with warmth, expertise, and cutting-edge technology since 2025.</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.links">Quick Links</h4>
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#about" data-i18n="nav.about">About Us</a>
+      <a href="#testimonies" data-i18n="nav.testimonies">Testimonies</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.services">Services</h4>
+      <a href="#services" data-i18n="s1.name">Teeth Whitening</a>
+      <a href="#services" data-i18n="s2.name">Dental Implants</a>
+      <a href="#services" data-i18n="s3.name">Orthodontics</a>
+      <a href="#services" data-i18n="s4.name">Veneers</a>
+      <a href="#services" data-i18n="s6.name">General Check-Up</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.contact">Contact</h4>
+      <a href="tel:+528782101199">878 210 1199</a>
+      <a href="/cdn-cgi/l/email-protection#94fcf1f8f8fbd4f8e1ece1e6edf0f1fae0f5f8baf7fbf9"><span class="__cf_email__" data-cfemail="fc9499909093bc908984898e85989992889d90d29f9391">[email&#160;protected]</span></a>
+      <a href="https://wa.me/528782101199" target="_blank">WhatsApp</a>
+      <a href="#contact">Veracruz 101, Roma<br>26025 Piedras Negras, Coah.</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy" data-i18n="footer.copy">© 2025 <span data-i18n="brand.name">Luxury Dental Clinic</span>. All rights reserved.</p>
+<!-- <p class="footer-copy" data-i18n="footer.credit">Crafted with ❤️ for healthy smiles.</p> -->
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+// ─── TRANSLATIONS ───
+const translations = {
+  en: {
+    "brand.name": "Luxury Dental",
+    "nav.home": "Home",
+    "nav.services": "Services",
+    "nav.about": "About Us",
+    "nav.testimonies": "Testimonies",
+    "nav.contact": "Contact",
+    "nav.book": "Book Appointment",
+    "wa.float": "Hello! I'd like to book an appointment at Luxury Dental Clinic.",
+    "wa.nav": "Hello! I'd like to book an appointment at Luxury Dental Clinic.",
+    "wa.hero": "Hello! I'd like to book an appointment.",
+    "wa.contact": "Hello! I'd like to connect with Luxury Dental Clinic.",
+    "hero.tag": "Premium Dental Care",
+    "hero.title": "Your Smile Is Our <em>Greatest</em> Work",
+    "hero.desc": "We combine cutting-edge technology with compassionate care to give you the smile you've always dreamed of. Trusted by thousands of patients across the city.",
+    "hero.services": "Our Services",
+    "hero.stat1": "Years of Experience",
+    "hero.stat2": "Happy Patients",
+    "hero.stat3": "Specialist Doctors",
+    "hero.rating": "Google Rating",
+    "contact.hours_short": "Tue–Sat: 10am – 3pm",
+    "services.label": "What We Offer",
+    "services.title": "Excellence in Every <em>Treatment</em>",
+    "services.desc": "From routine checkups to full smile transformations, our team of specialists delivers world-class dental care tailored to you.",
+    "s1.name": "Teeth Whitening",
+    "s1.desc": "Professional whitening treatments that remove stains and brighten your smile by several shades in just one session.",
+    "s2.name": "Dental Implants",
+    "s2.desc": "Permanent, natural-looking tooth replacements using the latest implant technology for a lifetime of confident smiling.",
+    "s3.name": "Orthodontics",
+    "s3.desc": "Invisible aligners and braces designed to straighten teeth discreetly, comfortably, and effectively at any age.",
+    "s4.name": "Veneers",
+    "s4.desc": "Ultra-thin porcelain veneers crafted to perfect the shape, color, and symmetry of your smile with minimal tooth alteration.",
+    "s5.name": "Root Canal",
+    "s5.desc": "Pain-free endodontic treatments using advanced rotary technology to save infected teeth quickly and comfortably.",
+    "s6.name": "General Check-Up",
+    "s6.desc": "Comprehensive exams, digital X-rays, and professional cleanings to keep your oral health in perfect condition year-round.",
+    "about.label": "About Us",
+    "about.title": "Where <em>Comfort</em> Meets Clinical Excellence",
+    "about.desc": "Located in the heart of Piedras Negras, Luxury Dental Clinic arrives to elevate the standard of oral health on the border. Whether you're local or visit us from across the border, our philosophy is to offer you a refuge of modernity and comfort. At Luxury Dental Clinic Piedras Negras, we don't just care for your smile, we care for the first impression you give to the world.",
+    "about.stat": "Years of Excellence",
+    "af1.title": "Certified Specialists",
+    "af1.desc": "All our dentists are board-certified with post-graduate specializations.",
+    "af2.title": "Latest Technology",
+    "af2.desc": "Digital X-rays, 3D scanning, and laser dentistry for precision and comfort.",
+    "af3.title": "Patient-First Philosophy",
+    "af3.desc": "From the first call to post-treatment care, your comfort is our priority.",
+    "team.surgeon": "Dental Surgeon",
+    "team.specialist": "Dental Specialist",
+    "testi.label": "Patient Stories",
+    "testi.title": "What Our Patients <em>Say</em>",
+    "testi.desc": "Real stories from real patients who trusted us with their smiles.",
+    "t1.text": "I was terrified of dentists until I came here. The team made me feel so comfortable and my veneers turned out absolutely stunning. I smile with confidence now!",
+    "t1.role": "Veneer Patient",
+    "t2.text": "The dental implant procedure was painless and the result looks completely natural. Dr. Chen is a true expert. I highly recommend this clinic to everyone!",
+    "t2.role": "Implant Patient",
+    "t3.text": "After 18 months of Invisalign treatment with Dr. Reyes, my teeth are perfectly straight. The entire experience was professional, friendly, and worth every penny.",
+    "t3.role": "Invisalign Patient",
+    "contact.label": "Get In Touch",
+    "contact.title": "We'd Love to <em>Hear</em> from You",
+    "contact.desc": "Ready to start your smile journey? Reach out by phone, email, WhatsApp, or drop by our clinic. Our friendly team is always happy to help.",
+    "c.phone_label": "Phone",
+    "c.address_label": "Address",
+    "c.facebook_label": "Facebook",
+    "c.facebook_value": "Visit our page",
+    "c.hours_title": "Office Hours",
+    "c.monday": "Monday",
+    "c.tuesday": "Tuesday",
+    "c.wednesday": "Wednesday",
+    "c.thursday": "Thursday",
+    "c.friday": "Friday",
+    "c.saturday": "Saturday",
+    "c.sunday": "Sunday",
+    "c.closed": "Closed",
+    "form.title": "Book an Appointment",
+    "form.sub": "Fill in the form and we'll confirm your slot via WhatsApp within 2 hours.",
+    "form.name": "Full Name",
+    "form.phone": "Phone / WhatsApp",
+    "form.service": "Service",
+    "form.select": "Select a service...",
+    "form.message": "Message (optional)",
+    "form.btn": "Send via WhatsApp",
+    "footer.desc": "Committed to providing exceptional dental care with warmth, expertise, and cutting-edge technology since 2025.",
+    "footer.links": "Quick Links",
+    "footer.services": "Services",
+    "footer.contact": "Contact",
+    "footer.copy": "© 2025 Luxury Dental Clinic. All rights reserved.",
+    "footer.credit": "Crafted with ❤️ for healthy smiles."
+  },
+  es: {
+    "brand.name": "Luxury Dental",
+    "nav.home": "Inicio",
+    "nav.services": "Servicios",
+    "nav.about": "Nosotros",
+    "nav.testimonies": "Testimonios",
+    "nav.contact": "Contacto",
+    "nav.book": "Agendar Cita",
+    "wa.float": "¡Hola! Quisiera agendar una cita en Luxury Dental Clinic.",
+    "wa.nav": "¡Hola! Quisiera agendar una cita en Luxury Dental Clinic.",
+    "wa.hero": "¡Hola! Quisiera agendar una cita.",
+    "wa.contact": "¡Hola! Quisiera comunicarme con Luxury Dental Clinic.",
+    "hero.tag": "Atención Dental Premium",
+    "hero.title": "Tu Sonrisa Es Nuestra <em>Mayor</em> Obra",
+    "hero.desc": "Combinamos tecnología de vanguardia con atención compasiva para darte la sonrisa que siempre soñaste. La confianza de miles de pacientes nos respalda.",
+    "hero.services": "Nuestros Servicios",
+    "hero.stat1": "Años de Experiencia",
+    "hero.stat2": "Pacientes Felices",
+    "hero.stat3": "Médicos Especialistas",
+    "hero.rating": "Calificación Google",
+    "contact.hours_short": "Mar–Sáb: 10am – 3pm",
+    "services.label": "Lo Que Ofrecemos",
+    "services.title": "Excelencia en Cada <em>Tratamiento</em>",
+    "services.desc": "Desde revisiones rutinarias hasta transformaciones completas, nuestro equipo de especialistas ofrece atención dental de clase mundial hecha para ti.",
+    "s1.name": "Blanqueamiento Dental",
+    "s1.desc": "Tratamientos profesionales que eliminan manchas y aclaran tu sonrisa varios tonos en una sola sesión.",
+    "s2.name": "Implantes Dentales",
+    "s2.desc": "Reemplazos permanentes y de aspecto natural usando la tecnología de implantes más avanzada para una sonrisa de por vida.",
+    "s3.name": "Ortodoncia",
+    "s3.desc": "Alineadores invisibles y brackets diseñados para enderezar los dientes de forma discreta, cómoda y efectiva a cualquier edad.",
+    "s4.name": "Carillas Dentales",
+    "s4.desc": "Carillas de porcelana ultrafinas diseñadas para perfeccionar la forma, el color y la simetría de tu sonrisa.",
+    "s5.name": "Endodoncia",
+    "s5.desc": "Tratamientos de conducto sin dolor usando tecnología rotatoria avanzada para salvar dientes infectados rápida y cómodamente.",
+    "s6.name": "Revisión General",
+    "s6.desc": "Exámenes completos, radiografías digitales y limpiezas profesionales para mantener tu salud bucal en condiciones perfectas.",
+    "about.label": "Acerca de Nosotros",
+    "about.title": "Donde la <em>Comodidad</em> Se Une a la Excelencia",
+    "about.desc": "Ubicada en el corazón de Piedras Negras, Luxury Dental Clinic llega para elevar el estándar de la salud oral en la frontera. Ya seas local o nos visites del otro lado de la frontera, nuestra filosofía es ofrecerte un refugio de modernidad y confort. En Luxury Dental Clinic Piedras Negras, no solo cuidamos tu boca, cuidamos la primera impresión que le das al mundo.",
+    "about.stat": "Años de Excelencia",
+    "af1.title": "Especialistas Certificados",
+    "af1.desc": "Todos nuestros dentistas están certificados con especializaciones de posgrado.",
+    "af2.title": "Tecnología de Última Generación",
+    "af2.desc": "Radiografías digitales, escáner 3D y odontología láser para precisión y comodidad.",
+    "af3.title": "Filosofía Centrada en el Paciente",
+    "af3.desc": "Desde la primera llamada hasta el seguimiento post-tratamiento, tu comodidad es nuestra prioridad.",
+    "team.surgeon": "Cirujano Dentista",
+    "team.specialist": "Especialista Dental",
+    "testi.label": "Historias de Pacientes",
+    "testi.title": "Lo Que Dicen Nuestros <em>Pacientes</em>",
+    "testi.desc": "Historias reales de pacientes que nos confiaron sus sonrisas.",
+    "t1.text": "Le tenía terror a los dentistas hasta que vine aquí. El equipo me hizo sentir muy cómoda y mis carillas quedaron absolutamente espectaculares. ¡Ahora sonrío con confianza!",
+    "t1.role": "Paciente de Carillas",
+    "t2.text": "El procedimiento de implante fue indoloro y el resultado se ve completamente natural. El Dr. Chen es un verdadero experto. ¡Recomiendo esta clínica a todos!",
+    "t2.role": "Paciente de Implante",
+    "t3.text": "Después de 18 meses de tratamiento Invisalign con la Dra. Reyes, mis dientes quedaron perfectamente alineados. Toda la experiencia fue profesional, amigable y valió cada centavo.",
+    "t3.role": "Paciente de Invisalign",
+    "contact.label": "Contáctanos",
+    "contact.title": "Nos Encantaría <em>Saber</em> de Ti",
+    "contact.desc": "¿Listo para comenzar tu viaje hacia la sonrisa perfecta? Comunícate por teléfono, correo, WhatsApp o visítanos en nuestra clínica. Nuestro equipo siempre estará feliz de atenderte.",
+    "c.phone_label": "Teléfono",
+    "c.address_label": "Dirección",
+    "c.facebook_label": "Facebook",
+    "c.facebook_value": "Visita nuestra página",
+    "c.hours_title": "Horario de Atención",
+    "c.monday": "Lunes",
+    "c.tuesday": "Martes",
+    "c.wednesday": "Miércoles",
+    "c.thursday": "Jueves",
+    "c.friday": "Viernes",
+    "c.saturday": "Sábado",
+    "c.sunday": "Domingo",
+    "c.closed": "Cerrado",
+    "form.title": "Agenda Tu Cita",
+    "form.sub": "Llena el formulario y confirmaremos tu turno por WhatsApp en menos de 2 horas.",
+    "form.name": "Nombre Completo",
+    "form.phone": "Teléfono / WhatsApp",
+    "form.service": "Servicio",
+    "form.select": "Selecciona un servicio...",
+    "form.message": "Mensaje (opcional)",
+    "form.btn": "Enviar por WhatsApp",
+    "footer.desc": "Comprometidos con brindar atención dental excepcional con calidez, experiencia y tecnología de vanguardia desde 2025.",
+    "footer.links": "Enlaces Rápidos",
+    "footer.services": "Servicios",
+    "footer.contact": "Contacto",
+    "footer.copy": "© 2025 Luxury Dental Clinic. Todos los derechos reservados.",
+    "footer.credit": "Hecho con ❤️ para sonrisas saludables."
+  }
+};
+
+let currentLang = 'en';
+
+function updateWhatsAppLinks(lang) {
+  // Botón flotante
+  const waFloat = document.querySelector('.wa-float');
+  if (waFloat) {
+    const message = translations[lang]['wa.float'] || translations['en']['wa.float'];
+    waFloat.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  }
+  
+  // Botón de libro en nav
+  const navBookBtn = document.querySelector('.nav-right .btn-book');
+  if (navBookBtn) {
+    const message = translations[lang]['wa.nav'] || translations['en']['wa.nav'];
+    navBookBtn.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  }
+  
+  // Botón en menú móvil
+  const mobileBookBtn = document.querySelector('.mobile-menu .btn-primary');
+  if (mobileBookBtn) {
+    const message = translations[lang]['wa.nav'] || translations['en']['wa.nav'];
+    mobileBookBtn.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  }
+  
+  // Botón en hero section
+  const heroBookBtn = document.querySelector('.hero-actions .btn-primary');
+  if (heroBookBtn) {
+    const message = translations[lang]['wa.hero'] || translations['en']['wa.hero'];
+    heroBookBtn.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  }
+  
+  // Botón de contacto en la sección contact info
+  const contactWaLink = document.querySelector('.contact-details a[href*="wa.me"]');
+  if (contactWaLink) {
+    const message = translations[lang]['wa.contact'] || translations['en']['wa.contact'];
+    contactWaLink.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  }
+  
+  // Botón en el footer
+  const footerWaLinks = document.querySelectorAll('footer a[href*="wa.me"]');
+  footerWaLinks.forEach(link => {
+    const message = translations[lang]['wa.contact'] || translations['en']['wa.contact'];
+    link.href = `https://wa.me/528782101199?text=${encodeURIComponent(message)}`;
+  });
+}
+
+function setLang(lang) {
+  currentLang = lang;
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+  const mobileEn = document.getElementById('btn-en-mobile');
+  const mobileEs = document.getElementById('btn-es-mobile');
+  if (mobileEn) mobileEn.classList.toggle('active', lang === 'en');
+  if (mobileEs) mobileEs.classList.toggle('active', lang === 'es');
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang][key] !== undefined) {
+      el.innerHTML = translations[lang][key];
+    }
+  });
+  // update select options
+  document.querySelectorAll('select option[data-i18n]').forEach(opt => {
+    const key = opt.getAttribute('data-i18n');
+    if (translations[lang][key]) opt.textContent = translations[lang][key];
+  });
+  // update whatsapp links
+  updateWhatsAppLinks(lang);
+}
+
+// ─── WHATSAPP FORM ───
+document.getElementById('waFormBtn').addEventListener('click', function(e) {
+  e.preventDefault();
+  const name = document.getElementById('f-name').value || (currentLang === 'es' ? 'Sin nombre' : 'Not provided');
+  const phone = document.getElementById('f-phone').value || (currentLang === 'es' ? 'No proporcionado' : 'Not provided');
+  const service = document.getElementById('f-service').value || (currentLang === 'es' ? 'No especificado' : 'Not specified');
+  const message = document.getElementById('f-message').value || '';
+
+  const text = currentLang === 'es'
+    ? `¡Hola! Quisiera agendar una cita en Luxury Dental Clinic.\n\nNombre: ${name}\nTeléfono: ${phone}\nServicio: ${service}${message ? '\nMensaje: ' + message : ''}`
+    : `Hello! I'd like to book an appointment at Luxury Dental Clinic.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}${message ? '\nMessage: ' + message : ''}`;
+
+  window.open(`https://wa.me/528782101199?text=${encodeURIComponent(text)}`, '_blank');
+});
+
+// ─── SCROLL: NAV + REVEAL ───
+const nav = document.getElementById('mainNav');
+const reveals = document.querySelectorAll('.reveal');
+
+const observer = new IntersectionObserver((entries) => {  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12 });
+reveals.forEach(r => observer.observe(r));
+
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// ─── HAMBURGER + MOBILE MENU ───
+document.addEventListener('DOMContentLoaded', function () {
+  // Initialize WhatsApp links on page load
+  updateWhatsAppLinks('en');
+  
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  if (hamburger && mobileMenu) {
+    hamburger.addEventListener('click', function () {
+      mobileMenu.classList.toggle('open');
+    });
+  }
+
+  document.querySelectorAll('.mobile-link').forEach(function(link) {
+    link.addEventListener('click', function () {
+      if (mobileMenu) mobileMenu.classList.remove('open');
+    });
+  });
+
+  document.querySelectorAll('[data-lang]').forEach(function(btn) {
+    btn.addEventListener('click', function () {
+      setLang(this.getAttribute('data-lang'));
+    });
+  });
+});
+</script>
+</body>
+</html>
